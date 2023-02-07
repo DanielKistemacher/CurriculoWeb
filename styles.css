@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+h2{
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem; 
+}
+
 body {
     background-position: top center;
     background-size: 100% auto;
-    background-color: #ffffff;
+    background-color: #203372da;
 }
 
 body * {
@@ -58,17 +64,10 @@ section {
 }
 
 section div {
-    background-color: #cfcfcf;
+    background-color: #ffffff;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
-}
-
-section h2 {
-    color: black;
-    font-size: 20;
-    letter-spacing: -0.47px;
-    text-decoration: underline;
 }
 
 section p {
@@ -84,13 +83,13 @@ a:link {
     color: #00F;
    }
 
-a:hover {
-    color: rgb(0, 0, 0);
+a:visited{
+    color: gray;
 }
 
-a {
-    text-decoration:#00F;
-   }
+a:hover {
+    color: #00F;
+}
 
 span{
     font-weight: bold;
@@ -122,7 +121,7 @@ span{
     height: 40px;
     line-height: 20px;
     list-style: none;
-    margin: 0;
+    margin: 6px;
     outline: none;
     padding: 10px 16px;
     position: relative;
@@ -134,6 +133,14 @@ span{
     -webkit-user-select: none;
     touch-action: manipulation;
   }
+
+.texto-github{
+    margin: 3px;;
+}
+
+.texto-email{
+    margin: 3px;;
+}
  
 /* =============== ANIMAÇÃO =============== */
 
