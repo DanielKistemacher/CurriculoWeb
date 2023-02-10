@@ -104,7 +104,7 @@ span{
 .button:hover {
     color: rgb(15, 15, 15);
     transform: scale(1.1);
-    background-color: rgb(255, 255, 255);
+    background-color: #203372da;
 }
 
 .button {
