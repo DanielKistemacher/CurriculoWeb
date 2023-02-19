@@ -10,6 +10,10 @@ h2{
     font-size: 3rem; 
 }
 
+ul { /*REMOVER OS PONTINHOS DA LISTA*/
+    list-style: none;
+}
+
 body {
     background-position: top center;
     background-size: 100% auto;
